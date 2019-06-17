@@ -1,0 +1,22 @@
+#header {
+  background-image: url("images/hirak.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 400px;
+  width: 100%;
+
+}
+
+#header .title {
+  color: yellow;
+  border: 2px solid yellow;
+  border-radius: 5px;
+  position: relative;
+  font-size: 100px;
+  top: 150px;
+  width: 450px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
