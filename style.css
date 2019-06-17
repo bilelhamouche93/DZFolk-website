@@ -4,6 +4,11 @@ body, html {
 }
 
 
+body {
+  background-image: url("images/background.jpg");
+  background-size: auto;
+  background-position: bottom center;
+}
 
 #header {
   background-image: url("images/hirak.jpg");
@@ -28,6 +33,7 @@ body, html {
 
 
 .navigation {
+
 }
 
 .navigation ul {
@@ -42,7 +48,7 @@ body, html {
 
 
 .navigation ul li {
-  font-weight: 300;
+  font-weight: bold;
   letter-spacing: 2px;
   padding: 5px;
   border: 2px solid black;
