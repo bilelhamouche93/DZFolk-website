@@ -5,8 +5,8 @@ body, html {
 
 
 body {
-  background-image: url("images/background.jpg");
-  background-size: auto;
+  background-image: url("images/background-yellow.jpg");
+  background-size: cover;
   background-position: bottom center;
 }
 
@@ -81,10 +81,10 @@ a {
 
 
 .navigation li:hover {
-  width: 200px;
+  width: 220px;
   color: black;
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: bolder;
   letter-spacing: 4px;
 }
 
