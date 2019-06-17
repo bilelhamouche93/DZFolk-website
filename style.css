@@ -9,14 +9,44 @@
 
 #header .title {
   color: yellow;
-  border: 2px solid yellow;
-  border-radius: 5px;
+  border: 6px solid yellow;
+  border-radius: 20px;
   position: relative;
-  font-size: 100px;
-  top: 150px;
+  font-size: 120px;
+  top: 120px;
   width: 450px;
   margin: 0 auto;
   text-align: center;
 }
 
 
+.navigation {
+  height: auto;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+
+.navigation li {
+  font-weight: 100;
+  list-style-type: none;
+  letter-spacing: 2px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 6px;
+  width: 150px;
+  margin: 15px auto;
+
+}
+
+.navigation  li.logo {
+  width: 200px;
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
