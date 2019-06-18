@@ -20,12 +20,11 @@ body {
 }
 
 #header .title {
-  
-  /* border: 6px solid yellow; */
   border-radius: 20px;
-  border: 8px solid;
+  border: 10px solid;
   position: relative;
   font-size: 120px;
+  font-family: 'Rubik', sans-serif;
   top: 120px;
   width: 540px;
   margin: 0 auto;
@@ -33,12 +32,16 @@ body {
   animation: rainbow 10s infinite;
 }
 
+#header .title:hover {
+  transform: scale(1.5)
+}
+
 @keyframes rainbow {
   0% {
     color: yellow;
     border-color: yellow;
   }
-  50% {
+  70% {
     color: cyan;
     border-color: cyan;
   }
@@ -48,9 +51,9 @@ body {
   }
 }
 
-.navigation {
+/* .navigation {
 
-}
+} */
 
 .navigation ul {
   margin: 0 auto;
@@ -72,6 +75,8 @@ body {
   width: 80%;
   margin: 15px auto;
   font-size: 120%;
+  font-family: 'Orbitron', sans-serif;
+
 
 
 }
@@ -107,4 +112,39 @@ a {
 
 .news-sources {
   width: 400px;
+}
+
+
+.frombig {
+  animation: frombig 3s;
+}
+
+@keyframes frombig{
+  0% {
+    width:200%;
+    margin: auto auto;
+    
+  }
+
+  100% {
+    width: 80%;
+    margin: 15px auto;
+  }
+}
+
+.fromsmall {
+  animation: fromsmall 3s;
+}
+
+@keyframes fromsmall{
+  0% {
+    width:50%;
+    margin: auto auto;
+    
+  }
+
+  100% {
+    width: 80%;
+    margin: 15px auto;
+  }
 }
