@@ -5,17 +5,17 @@ body, html {
 
 
 body {
-  background-image: url("images/background-yellow.jpg");
+  background-image: url("images/yellow.jpg");
   background-size: cover;
   background-position: bottom center;
 }
 
 #header {
-  background-image: url("images/hirak.jpg");
+  background-image: url("images/cover.jpg");
   background-size: cover;
   background-position: bottom center;
   height: 400px;
-  width: 100%;
+ 
 
 }
 
@@ -68,6 +68,7 @@ body {
 
 .navigation ul li {
   font-weight: bold;
+  text-transform: uppercase;
   letter-spacing: 2px;
   padding: 5px;
   border: 2px solid black;
@@ -89,9 +90,19 @@ body {
   letter-spacing: 4px;
 }*/
 
+
+.news-sources {
+  width: 400px;
+  margin: 10px 22px;
+  position: relative;
+  left: 8px;
+  top: 10px;
+}
+
 .news-sources:hover {
   border: 6px solid yellow;
   border-radius: 20px;
+  transform: scale(1.1)
 }
 
 
@@ -110,12 +121,10 @@ a {
 }
 
 
-.news-sources {
-  width: 400px;
-}
 
 
-.frombig {
+
+/* .frombig {
   animation: frombig 3s;
 }
 
@@ -147,4 +156,5 @@ a {
     width: 80%;
     margin: 15px auto;
   }
-}
+} */
+
