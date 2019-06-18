@@ -20,17 +20,33 @@ body {
 }
 
 #header .title {
-  color: yellow;
-  border: 6px solid yellow;
+  
+  /* border: 6px solid yellow; */
   border-radius: 20px;
+  border: 8px solid;
   position: relative;
   font-size: 120px;
   top: 120px;
   width: 540px;
   margin: 0 auto;
   text-align: center;
+  animation: rainbow 10s infinite;
 }
 
+@keyframes rainbow {
+  0% {
+    color: yellow;
+    border-color: yellow;
+  }
+  50% {
+    color: cyan;
+    border-color: cyan;
+  }
+  100% {
+    color: white;
+    border-color: white;
+  }
+}
 
 .navigation {
 
