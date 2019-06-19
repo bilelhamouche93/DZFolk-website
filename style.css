@@ -30,6 +30,10 @@ body {
   width: 100%;
   text-align: center;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 .border {
   font-family: 'Rubik', sans-serif;
@@ -101,7 +105,7 @@ body {
   transform: scale(1.1)
 }
 
-a {
+li a {
   text-decoration: none;
   color: black;
 }
