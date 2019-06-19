@@ -8,6 +8,8 @@ body {
   background-image: url("images/yellow.jpg");
   background-size: cover;
   background-position: bottom center;
+  cursor: cell;
+
 }
 
 #header {
@@ -15,7 +17,7 @@ body {
   background-size: cover;
   background-position: bottom center;
   height: 400px;
- 
+
 
 }
 
@@ -41,7 +43,11 @@ body {
     color: yellow;
     border-color: yellow;
   }
-  70% {
+  40% {
+    color: yellow;
+    border-color: yellow;
+  }
+  60% {
     color: cyan;
     border-color: cyan;
   }
@@ -105,7 +111,6 @@ body {
   transform: scale(1.1)
 }
 
-
 a {
   text-decoration: none;
   color: black;
@@ -132,7 +137,7 @@ a {
   0% {
     width:200%;
     margin: auto auto;
-    
+
   }
 
   100% {
@@ -149,7 +154,7 @@ a {
   0% {
     width:50%;
     margin: auto auto;
-    
+
   }
 
   100% {
