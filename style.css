@@ -1,17 +1,13 @@
 body, html {
   height: 100%;
   margin: 0;
+  cursor: cell;
 }
 
-* {
-  text-align: center;
-}
-
-body {
+.yellowbg {
   background-image: url("images/yellow.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  cursor: cell;
 
 }
 
@@ -53,27 +49,34 @@ a {
     color: yellow;
     border-color: yellow;
   }
-  40% {
+  20% {
     color: yellow;
     border-color: yellow;
   }
-  60% {
+  40% {
     color: cyan;
     border-color: cyan;
   }
-  100% {
+  80% {
     color: white;
     border-color: white;
   }
+  100% {
+    color: yellow;
+    border-color: yellow;
+  }
 }
 
+.navigation {
+  height: 100%;
+}
 
 .navigation ul {
   margin: 0 auto;
   padding: 0;
   text-align: center;
   list-style-type: none;
-  width: 200px;
+  width: 500px;
 }
 
 
@@ -84,9 +87,9 @@ a {
   padding: 5px;
   border: 2px solid black;
   border-radius: 6px;
-  width: 80%;
-  margin: 15px auto;
-  font-size: 120%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 4.2em;
   font-family: 'Orbitron', sans-serif;
 }
 
@@ -97,9 +100,9 @@ li a {
 
 
 .navigation li:hover {
-  width: 220px;
+  width: 600px;
   color: black;
-  font-size: 24px;
+  font-size: 5em;
   font-weight: bolder;
   letter-spacing: 4px;
 }
@@ -131,6 +134,6 @@ li a {
   margin: 0;
   padding-right: 20px;
   font-family: 'Orbitron', sans-serif;
-
-
 }
+
+
