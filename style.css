@@ -90,21 +90,6 @@ a {
   font-family: 'Orbitron', sans-serif;
 }
 
-
-.news-sources {
-  width: 400px;
-  margin: 10px 22px;
-  position: relative;
-  left: 8px;
-  top: 10px;
-}
-
-.news-sources:hover {
-  border: 6px solid yellow;
-  border-radius: 20px;
-  transform: scale(1.1)
-}
-
 li a {
   text-decoration: none;
   color: black;
@@ -120,3 +105,32 @@ li a {
 }
 
 
+.news-sources {
+  width: 400px;
+  margin: 10px 22px;
+  position: relative;
+  left: 8px;
+  top: 10px;
+}
+
+.news-sources:hover {
+  border: 6px solid yellow;
+  border-radius: 20px;
+  transform: scale(1.1)
+}
+
+.aboutme img {
+  float: left;
+  border: 14px solid;
+  animation: rainbow 10s infinite;
+}
+
+.aboutme p {
+  text-align: left;
+  font-size: 30px;
+  margin: 0;
+  padding-right: 20px;
+  font-family: 'Orbitron', sans-serif;
+
+
+}
